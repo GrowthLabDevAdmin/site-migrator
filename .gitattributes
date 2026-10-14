@@ -1,0 +1,3 @@
+# Exclude development files from archives created with "git archive"
+.gitattributes export-ignore
+.gitignore     export-ignore
