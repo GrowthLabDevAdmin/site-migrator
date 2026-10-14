@@ -1,0 +1,645 @@
+# Site Migrator
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Site Migrator 1.3.0\\n"
+"POT-Creation-Date: 2026-10-11 04:51+0000\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"X-Domain: site-migrator\\n"
+
+#: includes/class-site-migrator-admin.php:47
+#, php-format
+msgid "No response from the server (%s)."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:49
+#, php-format
+msgid "Invalid server response (HTTP %s). It may be a timeout or a PHP error; check the server log."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:50
+msgid "Unknown error."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:51
+msgid "1 URL in the list"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:53
+#, php-format
+msgid "%s URLs in the list"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:54
+msgid "No URLs found with those filters. Check the sitemap or the include and exclude expressions."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:56
+#, php-format
+msgid "(child of post ID %s)"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:57
+msgid "Empty"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:58
+msgid "None"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:60
+#, php-format
+msgid "(alt: %s)"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:61
+msgid "(no alt)"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:62 includes/class-site-migrator-cli.php:268
+msgid "(CSS background)"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:64
+#, php-format
+msgid "%s URLs will be migrated and published immediately. Continue?"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:66
+#, php-format
+msgid "%s URLs will be migrated. Continue?"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:68
+#, php-format
+msgid "Migrating %1$s of %2$s: %3$s"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:70
+#, php-format
+msgid "Image: %s"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:72 includes/class-site-migrator-cli.php:175
+#, php-format
+msgid "Featured image: %s"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:74
+#, php-format
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:76
+#, php-format
+msgid "(%s failed)"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:78
+#, php-format
+msgid "%1$s created, %2$s updated, %3$s skipped, %4$s with errors."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:80
+#, php-format
+msgid "Migration stopped after %1$s of %2$s URLs: %3$s"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:82
+#, php-format
+msgid "Migration finished: %s"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:83
+msgid "Stopping after the current image finishes…"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:85
+#, php-format
+msgid "%s URLs will be scanned and their images uploaded to the Media Library. Continue?"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:87
+#, php-format
+msgid "%1$s pages processed, %2$s images imported, %3$s failed, %4$s pages with errors."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:89 includes/class-site-migrator-cli.php:133
+msgid "Created"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:90 includes/class-site-migrator-cli.php:134
+msgid "Updated"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:91 includes/class-site-migrator-cli.php:135
+msgid "Skipped"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:92 includes/class-site-migrator-cli.php:136
+msgid "Processed"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:93 includes/class-site-migrator-cli.php:210
+msgid "Error"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:96 includes/class-site-migrator-cli.php:242
+msgid "original_url"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:97 includes/class-site-migrator-cli.php:243
+msgid "original_path"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:99 includes/class-site-migrator-cli.php:245
+msgid "new_path"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:100 includes/class-site-migrator-cli.php:246
+msgid "status"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:101 includes/class-site-migrator-cli.php:247
+msgid "images_ok"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:102 includes/class-site-migrator-cli.php:248
+msgid "images_not_migrated"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:103 includes/class-site-migrator-cli.php:249
+msgid "notes"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:105
+msgid "site-migrator-report.csv"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:116
+msgid "Your session expired. Reload the page."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:119 includes/class-site-migrator-admin.php:188
+msgid "Your user does not have permission to use this tool."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:131
+msgid "The URL is not valid."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:185
+msgid "The target post does not exist or cannot be edited."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:192
+msgid "The image URL is not valid."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:222
+msgid "Draft"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:223
+msgid "Pending review"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:224
+msgid "Private"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:225
+msgid "Published"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:228
+msgid "Content and images"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:229
+msgid "Content only"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:230
+msgid "Images only"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:233
+msgid "Do not save"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:240
+msgid "Import text and images from an external site as pages or posts on this site. Check the preview before migrating, and migrate as drafts first."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:243
+msgid "What to migrate"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:246
+msgid "Mode"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:253
+msgid "Images are uploaded to the Media Library without creating or changing any page. Images already in the library are not duplicated."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:257
+msgid "Images inside the content"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:260
+msgid "Remove them from the content"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:261
+msgid "Keep them pointing to the original site"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:263
+msgid "If you keep them, they will break when the original site goes offline. Use it only if you will replace them later."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:267
+msgid "Which images"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:270
+msgid "Only those inside the content container"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:271
+msgid "All images on the page"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:273
+msgid "With \"All images on the page\" the content container is ignored, but \"Remove elements\" still applies: use it to leave out logos and icons."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:277
+msgid "Background images"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:280
+msgid "Also import background images defined in CSS"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:285
+#, php-format
+msgid "Scans %1$s attributes and lazy-load attributes such as data-bg. With \"All images on the page\" it also scans %2$s tags; those tags are not affected by \"Remove elements\". CSS loaded from external files is not scanned."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:292
+msgid "Source"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:295
+msgid "Sitemap"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:298
+msgid "Sitemap indexes are supported. If you enter URLs in the list below, the list is used instead."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:302
+msgid "URL list"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:304
+msgid "One URL per line"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:309
+msgid "Content"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:312
+msgid "Content container"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:318
+#, php-format
+msgid "CSS selector of the element that wraps only the content, without menu or footer. Examples: %s."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:324
+msgid "Remove elements"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:327
+msgid "Selectors of elements you do not want to migrate, separated by commas."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:333
+msgid "Advanced options"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:336
+msgid "Only URLs containing"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:339
+msgid "Regular expression. Useful for migrating the blog separately."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:343
+msgid "Skip URLs containing"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:349
+msgid "Container XPath"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:352
+msgid "Only if the CSS selector is not enough. When filled in, it replaces the selector."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:356
+msgid "Cleanup"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:362
+#, php-format
+msgid "Keep %s tags"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:365
+msgid "Keep the H1 inside the content (in addition to using it as the title)"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:366
+msgid "Do not convert internal links to relative paths"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:374
+msgid "Destination"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:377
+msgid "Create as"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:387 includes/class-site-migrator-admin.php:471
+msgid "Status"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:397
+msgid "Title and meta description"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:404
+msgid "Copies the original title and meta description to the selected SEO plugin."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:408
+msgid "Other options"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:411
+msgid "Use the Open Graph image (og:image) as the featured image"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:412
+msgid "Update already migrated (otherwise they are skipped)"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:421
+msgid "Get URLs"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:427 includes/class-site-migrator-admin.php:430
+msgid "URLs to migrate"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:428
+msgid "You can remove or add URLs before migrating, one per line. Parent pages are processed before their children."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:432
+msgid "Preview"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:433
+msgid "Check that only the content is extracted. If you change the selector or the options, generate the preview again; there is no need to get the URLs again."
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:435
+msgid "URL to preview"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:436
+msgid "Generate preview"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:443
+msgid "Title"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:444
+msgid "Slug"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:445
+msgid "Meta description"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:446 includes/class-site-migrator-admin.php:473
+msgid "Images"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:449
+msgid "Preview format"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:450
+msgid "Rendered"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:459
+msgid "Migrate"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:461
+msgid "Start migration"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:462
+msgid "Stop"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:463
+msgid "Download CSV report"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:470
+msgid "Original URL"
+msgstr ""
+
+#: includes/class-site-migrator-admin.php:472
+msgid "New page"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:105
+#, php-format
+msgid "Cannot read %s"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:129
+msgid "No URLs found to process."
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:150
+#, php-format
+msgid "URLs to process: %d"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:151
+msgid "(dry run: nothing will be written)"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:168
+#, php-format
+msgid "Image %1$s: %2$s"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:188
+#, php-format
+msgid "Images: %1$d ok, %2$d failed"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:192
+#, php-format
+msgid "%1$s: ID %2$d → %3$s | images: %4$d ok, %5$d failed"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:208
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:222
+#, php-format
+msgid "Report saved to: %s"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:228
+#, php-format
+msgid "Pages processed: %1$d | Errors: %2$d | Images: %3$d ok, %4$d failed"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:234
+#, php-format
+msgid "Created: %1$d | Updated: %2$d | Skipped: %3$d | Errors: %4$d | Images: %5$d ok, %6$d failed"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:255
+#, php-format
+msgid "Title: %s"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:258
+#, php-format
+msgid "Slug: %1$s (child of post ID %2$d)"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:260
+#, php-format
+msgid "Slug: %s"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:263
+#, php-format
+msgid "Meta description: %s"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:263
+msgid "(empty)"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:265
+#, php-format
+msgid "Images: %d"
+msgstr ""
+
+#: includes/class-site-migrator-cli.php:273
+msgid "Content (first 1500 characters)"
+msgstr ""
+
+#: includes/class-site-migrator.php:143
+msgid "Enter a sitemap URL or a list of URLs."
+msgstr ""
+
+#: includes/class-site-migrator.php:210
+msgid "The exclusion selector is not valid."
+msgstr ""
+
+#: includes/class-site-migrator.php:231
+msgid "The selector or XPath is not valid."
+msgstr ""
+
+#: includes/class-site-migrator.php:234
+msgid "The selector found no content on this page. Check it; if it is correct, the page is probably rendered with JavaScript."
+msgstr ""
+
+#: includes/class-site-migrator.php:270
+msgid "Home"
+msgstr ""
+
+#: includes/class-site-migrator.php:357
+msgid "Already migrated. Enable \"Update already migrated\" to overwrite it."
+msgstr ""
+
+#: includes/class-site-migrator.php:388
+#, php-format
+msgid "Images left pointing to the original site: %d"
+msgstr ""
+
+#: includes/class-site-migrator.php:438
+#, php-format
+msgid "Could not read the sitemap %1$s: %2$s"
+msgstr ""
+
+#: includes/class-site-migrator.php:447
+#, php-format
+msgid "The sitemap %s is not valid XML."
+msgstr ""
+
+#: includes/class-site-migrator.php:468
+#, php-format
+msgid "The regular expression \"%s\" is not valid."
+msgstr ""
+
+#: includes/class-site-migrator.php:672
+#, php-format
+msgid "SVG background images skipped (WordPress does not accept them): %d"
+msgstr ""
+
+#: includes/class-site-migrator.php:706
+#, php-format
+msgid "Skipped an unsupported <%1$s>: %2$s"
+msgstr ""
+
+#: includes/class-site-migrator.php:708
+#, php-format
+msgid "Skipped an unsupported <%s>."
+msgstr ""
+
+#: includes/class-site-migrator.php:791
+msgid "Unsupported format (probably SVG or a file that is not an image)."
+msgstr ""
+
+#: includes/class-site-migrator.php:911
+#, php-format
+msgid "The server responded with HTTP %d."
+msgstr ""
+
+#: includes/class-site-migrator.php:310
+msgctxt "slug for the homepage"
+msgid "home"
+msgstr ""
+
+#: site-migrator.php (plugin header)
+msgid "Migrates text and images from external (non-WordPress) sites into pages or posts. Adds a screen under Tools → Site Migrator and the WP-CLI command \"wp migrate-site\"."
+msgstr ""
